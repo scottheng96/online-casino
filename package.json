@@ -1,0 +1,14 @@
+{
+  "name": "online-casino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basic_phaser.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "phaser": "^3.55.2"
+  }
+}
