@@ -2,13 +2,19 @@
   "name": "online-casino",
   "version": "1.0.0",
   "description": "",
-  "main": "basic_phaser.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.3",
     "http-server": "^14.1.0",
-    "phaser": "^3.55.2"
+    "phaser": "^3.55.2",
+    "socket.io": "^4.4.1"
+  },
+  "engines": {
+    "node": "17.x"
   }
 }
