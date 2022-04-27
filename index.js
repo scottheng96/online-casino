@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const socketIO = require('socket.io');
 
-
+const PORT = process.env.PORT || 3000;
 // Express initializes app to be a function handler that you can supply to an HTTP server
 const app = express();
 const server = http.createServer(app);
@@ -32,6 +32,6 @@ io.on('connection', (socket) => {
 });
 
 // We make the http server listen on port 3000
-server.listen(3000, () => {
+server.listen(PORT, () => {
     console.log('listening on *:3000');
 });
