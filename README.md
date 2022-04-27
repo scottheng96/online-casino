@@ -1,6 +1,5 @@
 # online-casino
-personal project of mine to build a web-browser based online casino. Features of the program includes:
-- multiplayer
+personal project of mine to build a web-browser based online casino. Features of the program includes
 
 # Technologies Used
 
